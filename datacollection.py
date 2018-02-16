@@ -137,6 +137,4 @@ with open(fname, 'r') as f:
     n = int(input())
     print(count_all.most_common(n))
 
-#
-
 
