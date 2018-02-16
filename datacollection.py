@@ -10,10 +10,10 @@ from collections import Counter
 import string
 
 # Setting up authentication with twitter
-consumer_key = 'MTVOKJ3Kzn4hmpefMxZyeD1EU'
-consumer_secret = 'SMCduI3tChYi3oda4xg9vH1VidQU1oaL4dZ9gKt8gx985N7PpG'
-access_token = '3310773140-N3oAdYWWQKhN1OI1GNEIBSoE0UfnMLVOvaWLmDn'
-access_secret = 'mF6FaJ5SxEtLr1nySc9TdrVDLYCbDKrnEbACPmoUKlhKk'
+consumer_key = 'YOUR CONSUMER KEY'
+consumer_secret = 'YOUR CONSUMER SECRET'
+access_token = 'YOUR ACCESS TOKEN'
+access_secret = 'YOUR ACCESS SECRET'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
