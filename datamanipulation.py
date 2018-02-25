@@ -80,7 +80,7 @@ with open(fname, 'r') as f:
 
         # Removing stop words, punctuations and unnecessary characters
         punctuation = list(string.punctuation)
-        stop = stopwords.words('english') + punctuation + ['RT', 'via', '️', '…', '⚽', '🔥', '💪', '👇', '🏆', '👏', '0', '1', '2', '3', '4', '5']
+        stop = stopwords.words('english') + punctuation + ['RT', 'via', '️', '…']
         # add characters in above list if needed
         terms_filtered = [term for term in preprocess(tweets['text']) if term not in stop]
 
