@@ -1,4 +1,4 @@
-# SocialMediaSentimentMining_Python
+# Live Sentiment Mining from Twitter
 
 Code repository for mining social media sites for data and performing sentiment analysis and support prediction. __*The above project is still under development to implement new features and use the mined data for new types of analysis.*__
 
