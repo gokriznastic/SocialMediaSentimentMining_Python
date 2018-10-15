@@ -31,6 +31,8 @@ To install NLTK, open your python shell and type:
 import nltk
 nltk.download()
 ```
-
-
+To convert Tweets in json format to csv, you will need to install a third party library called Twython. Install Twython via pip:
+```
+$ pip install twython
+```
 
